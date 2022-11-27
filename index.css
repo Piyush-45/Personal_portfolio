@@ -725,9 +725,9 @@ textarea:focus {
 /* ======= projects section ===== */
 
 .mobile {
-    /* display: flex;
-    flex-direction: column; */
-    display: grid;
+    display: flex;
+    flex-direction: column;
+/*     display: grid; */
     /* background-color: red; */
     
 }
