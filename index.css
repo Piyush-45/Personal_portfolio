@@ -731,11 +731,11 @@ textarea:focus {
     /* background-color: red; */
     
 }
-.project_1{
+/* .project_1{
     height: 31vh;
     align-items: center;
 
-}
+} */
 
 .project_1 {
     display: grid;
