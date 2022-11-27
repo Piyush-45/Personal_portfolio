@@ -727,26 +727,19 @@ textarea:focus {
 .mobile {
     display: flex;
     flex-direction: column;
-/*     display: grid; */
-    /* background-color: red; */
-    
+    /* background: red; */
 }
-/* .project_1{
-    height: 31vh;
-    align-items: center;
-
-} */
 
 .project_1 {
     display: grid;
-    grid-template-columns:0.9fr 1fr;
-    gap:1rem;
+    grid-template-columns: 0.8fr 1fr;
+    gap: 1rem;
     padding: 1rem 1.2rem;
 
-
+    /* align-items: center; */
+    /* background-color: cadetblue; */
 
 }
-
 .swiper {
     width: 100%;
     height: 100%;
