@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <div class="parent_container">
+        <div class="main_container">
+            <aside>
+                <div class="top_part">
+                    <div class="profile_photo"><img src="../images/profile.svg" alt=""></div>
+                    <div class="name">Piyush Tyagi</div>
+                    <p>Frontend Developer</p>
+                    <ul class="social_icons">
+                        <li><a href="https://github.com/Piyush-45"><img src="../images/swiper_webp/git webp.webp" alt=""></a></li>
+                        <li><a href=""><img src="../images/swiper_webp/linkdin-webp.webp" alt=""></a></li>
+                        <li><a href="https://twitter.com/Piyush_ty"><img src="../images/swiper_webp/twitter-webp.webp" alt=""></a></li>
+                    </ul>
+                </div>
+                <a href="https://github.com/Piyush-45" class="cv_btn">Download CV</a>
+                <div class="copyright">© 2022 All rights reserved.</div>
+            </aside>
+
+            <main class="about_middle">
+                <h2 class="about_h2">About <span class="me">me</span></h2>
+
+                <div class="text_about_me">
+                    <div class="about_p_1"> Hello ! My Name is Piyush Tyagi. I'm a self taught <span>Frontend Web
+                            Developer</span>
+                        building the Front-end of Websites and
+                        Web Applications that leads to the success of the overall product. <br>
+                        <br>
+                    </div>
+                    <div class="about_p_2">
+                        I like to resolve design problems, create smart user interface and imagine useful
+                        interaction,
+                        developing rich web experiences & web applications.
+                        When not working or futzing around with code, I study how to escape from University.
+                        Actually for hire. <br> Check out some of <a href="/projects.html" class="mywork">my work</a><br>
+
+                    </div>
+                    <div class="skills_icons">
+                        <div class="portfolio_description">Here are a few technologies I’ve been working with
+                            recently:
+                        </div>
+
+                        <div class="skills_icons_container">
+                            <div class="html si"><img src="../images/html icon.png" alt="">
+                                <p>HTML 5</p>
+                            </div>
+                            <div class="css si "><img src="../images/css icons.png" alt="">
+                                <p>CSS 3</p>
+                            </div>
+                            <div class="js si"><img src="../images/icons8-javascript-logo-50.png" alt="">
+                                <p>JavaScript </p>
+                            </div>
+                            <div class="js si"><img src="../images//icons8-tailwind-css-48.png" alt="">
+                                <p>Tailwind</p>
+                            </div>
+                            <div class="github si"><img src="../images//icons8-github-50.png" alt="">
+                                <p>Git & Github</p>
+                            </div>
+                            <div class="uiux si"><img src="../images//ui icons.png" alt="">
+                                <p>UI / UX</p>
+                            </div>
+                            <div class="uiux si"><img src="../images//apis.png" alt="">
+                                <p>UI / UX</p>
+                            </div>
+                        </div>
+                        <div class="about_p_3">
+                            Frontend development, for me, is a form of problem-solving; I will be glad if I can <a
+                                href="/contact.html" class="mywork"> solve yours.</a>
+                        </div>
+                    </div>
+                    <div class="cv-btn">
+                       <a href="https://github.com/Piyush-45"> Download CV</a>
+                        <img src="/icons8-cv-50.png" alt="">
+                    </div>
+                </div>
+
+                <div class="mobile-menu">
+                    <div class="home-icon">
+                        <a href="../index.html"><img src="../images/home f.png" alt=""></a>
+                    </div>
+                    <div class="about-icon">
+                        <a href="about.html"> <img src="../images/about green.png" alt=""></a>
+                    </div>
+                    <div class="services">
+                        <a href="services.html"><img src="../images/code f.png" alt=""></a>
+                    </div>
+                    <div class="portfolio-icon">
+                        <a href="portfolio.html"> <img src="../images/briefcase green.png" alt=""></a>
+                    </div>
+                    <div class="contact_us">
+                        <a href="contact.html"> <img src="../images/mail green.png" alt=""></a>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+
+
+        <div class="menu">
+            <div class="icon home">
+                <div class="tooltip">Home</div>
+                <a href="../index.html"> <span><img src="../images/home f.png" alt=""></span></a>
+            </div>
+            <div class="icon about">
+                <div class="tooltip">About</div>
+                <a href="about.html"> <span><img src="../images/about green.png" alt=""></span></a>
+            </div>
+            <div class="icon services">
+                <div class="tooltip">Services</div>
+                <a href="services.html"><span><img src="../images/code f.png" alt=""></span></a>
+            </div>
+            <div class="icon contact">
+                <div class="tooltip">Projects</div>
+                <a href="portfolio.html"><span><img src="../images/briefcase green.png" alt=""></span></a>
+            </div>
+
+            <div class="icon contact">
+                <div class="tooltip">Contact</div>
+                <a href="contact.html"><span><img src="../images/mail green.png" alt=""></span></a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+<script>
+     $('body').mousemove(function (a) {
+            var mouseX = (a.pageX * -1 / 15)
+            var mouseY = (a.pageY * - 1 / 15)
+            $(this).css('background-position', mouseX + 'px ' + mouseY + 'px')
+        })
+</script>
+
+
+
+</body>
+</html>
